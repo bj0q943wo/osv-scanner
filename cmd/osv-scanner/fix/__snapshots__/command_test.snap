@@ -5297,14 +5297,14 @@ UNFIXABLE-VULNS: 8
       "resolved": "https://registry.npmjs.org/ajv/-/ajv-6.15.0.tgz",
       "integrity": "sha512-fgFx7Hfoq60ytK2c7DhnF8jIvzYgOMxfugjLOSMHjLIPgenqa7S7oaagATUq99mV6IYvN2tRmC0wnTYX6iPbMw==",
       "dependencies": {
+        "uri-js": "^4.2.2",
         "fast-deep-equal": "^3.1.1",
-        "fast-json-stable-stringify": "^2.0.0",
         "json-schema-traverse": "^0.4.1",
-        "uri-js": "^4.2.2"
+        "fast-json-stable-stringify": "^2.0.0"
       },
       "funding": {
-        "type": "github",
-        "url": "https://github.com/sponsors/epoberezkin"
+        "url": "https://github.com/sponsors/epoberezkin",
+        "type": "github"
       }
     },
     "node_modules/ansi-regex": {
@@ -6233,10 +6233,10 @@ UNFIXABLE-VULNS: 8
       "resolved": "https://registry.npmjs.org/ajv/-/ajv-6.15.0.tgz",
       "integrity": "sha512-fgFx7Hfoq60ytK2c7DhnF8jIvzYgOMxfugjLOSMHjLIPgenqa7S7oaagATUq99mV6IYvN2tRmC0wnTYX6iPbMw==",
       "requires": {
+        "uri-js": "^4.2.2",
         "fast-deep-equal": "^3.1.1",
-        "fast-json-stable-stringify": "^2.0.0",
         "json-schema-traverse": "^0.4.1",
-        "uri-js": "^4.2.2"
+        "fast-json-stable-stringify": "^2.0.0"
       }
     },
     "ansi-regex": {
@@ -7323,14 +7323,14 @@ Guided remediation (the fix command) can be risky when run on untrusted projects
       "resolved": "https://registry.npmjs.org/ajv/-/ajv-6.15.0.tgz",
       "integrity": "sha512-fgFx7Hfoq60ytK2c7DhnF8jIvzYgOMxfugjLOSMHjLIPgenqa7S7oaagATUq99mV6IYvN2tRmC0wnTYX6iPbMw==",
       "dependencies": {
+        "uri-js": "^4.2.2",
         "fast-deep-equal": "^3.1.1",
-        "fast-json-stable-stringify": "^2.0.0",
         "json-schema-traverse": "^0.4.1",
-        "uri-js": "^4.2.2"
+        "fast-json-stable-stringify": "^2.0.0"
       },
       "funding": {
-        "type": "github",
-        "url": "https://github.com/sponsors/epoberezkin"
+        "url": "https://github.com/sponsors/epoberezkin",
+        "type": "github"
       }
     },
     "node_modules/ansi-regex": {
@@ -8259,10 +8259,10 @@ Guided remediation (the fix command) can be risky when run on untrusted projects
       "resolved": "https://registry.npmjs.org/ajv/-/ajv-6.15.0.tgz",
       "integrity": "sha512-fgFx7Hfoq60ytK2c7DhnF8jIvzYgOMxfugjLOSMHjLIPgenqa7S7oaagATUq99mV6IYvN2tRmC0wnTYX6iPbMw==",
       "requires": {
+        "uri-js": "^4.2.2",
         "fast-deep-equal": "^3.1.1",
-        "fast-json-stable-stringify": "^2.0.0",
         "json-schema-traverse": "^0.4.1",
-        "uri-js": "^4.2.2"
+        "fast-json-stable-stringify": "^2.0.0"
       }
     },
     "ansi-regex": {
@@ -9028,302 +9028,12 @@ Guided remediation (the fix command) can be risky when run on untrusted projects
 ---
 
 [TestCommand/fix_non-interactive_json_override_pom.xml - 1]
-{
-  "path": "<tempdir>/pom.xml",
-  "ecosystem": "Maven",
-  "strategy": "override",
-  "vulnerabilities": [
-    {
-      "id": "GHSA-2x83-r56g-cv47",
-      "packages": [
-        {
-          "name": "org.apache.httpcomponents:httpclient",
-          "version": "4.0"
-        }
-      ]
-    },
-    {
-      "id": "GHSA-6fmv-xxpf-w3cw",
-      "packages": [
-        {
-          "name": "org.codehaus.plexus:plexus-utils",
-          "version": "3.0"
-        }
-      ]
-    },
-    {
-      "id": "GHSA-78wr-2p64-hpwj",
-      "packages": [
-        {
-          "name": "commons-io:commons-io",
-          "version": "2.5"
-        }
-      ]
-    },
-    {
-      "id": "GHSA-7r82-7xv7-xcpj",
-      "packages": [
-        {
-          "name": "org.apache.httpcomponents:httpclient",
-          "version": "4.0"
-        }
-      ]
-    },
-    {
-      "id": "GHSA-8vhq-qq4p-grq3",
-      "packages": [
-        {
-          "name": "org.codehaus.plexus:plexus-utils",
-          "version": "3.0"
-        }
-      ]
-    },
-    {
-      "id": "GHSA-cfh5-3ghh-wfjx",
-      "packages": [
-        {
-          "name": "org.apache.httpcomponents:httpclient",
-          "version": "4.0"
-        }
-      ]
-    },
-    {
-      "id": "GHSA-fmj5-wv96-r2ch",
-      "packages": [
-        {
-          "name": "org.apache.httpcomponents:httpclient",
-          "version": "4.0"
-        }
-      ]
-    },
-    {
-      "id": "GHSA-g6ph-x5wf-g337",
-      "packages": [
-        {
-          "name": "org.codehaus.plexus:plexus-utils",
-          "version": "3.0"
-        }
-      ]
-    },
-    {
-      "id": "GHSA-gp7f-rwcx-9369",
-      "packages": [
-        {
-          "name": "org.jsoup:jsoup",
-          "version": "1.14.1"
-        }
-      ]
-    },
-    {
-      "id": "GHSA-gw85-4gmf-m7rh",
-      "packages": [
-        {
-          "name": "org.apache.httpcomponents:httpclient",
-          "version": "4.0"
-        }
-      ]
-    },
-    {
-      "id": "GHSA-gwrp-pvrq-jmwv",
-      "packages": [
-        {
-          "name": "commons-io:commons-io",
-          "version": "2.5"
-        }
-      ]
-    },
-    {
-      "id": "GHSA-jcwr-x25h-x5fh",
-      "packages": [
-        {
-          "name": "org.codehaus.plexus:plexus-utils",
-          "version": "3.0"
-        }
-      ]
-    },
-    {
-      "id": "GHSA-m72m-mhq2-9p6c",
-      "packages": [
-        {
-          "name": "org.jsoup:jsoup",
-          "version": "1.14.1"
-        }
-      ]
-    }
-  ],
-  "patches": [
-    {
-      "packageUpdates": [
-        {
-          "name": "org.apache.httpcomponents:httpclient",
-          "versionFrom": "4.0",
-          "versionTo": "4.5.13",
-          "transitive": true
-        }
-      ],
-      "fixed": [
-        {
-          "id": "GHSA-2x83-r56g-cv47",
-          "packages": [
-            {
-              "name": "org.apache.httpcomponents:httpclient",
-              "version": "4.0"
-            }
-          ]
-        },
-        {
-          "id": "GHSA-7r82-7xv7-xcpj",
-          "packages": [
-            {
-              "name": "org.apache.httpcomponents:httpclient",
-              "version": "4.0"
-            }
-          ]
-        },
-        {
-          "id": "GHSA-cfh5-3ghh-wfjx",
-          "packages": [
-            {
-              "name": "org.apache.httpcomponents:httpclient",
-              "version": "4.0"
-            }
-          ]
-        },
-        {
-          "id": "GHSA-fmj5-wv96-r2ch",
-          "packages": [
-            {
-              "name": "org.apache.httpcomponents:httpclient",
-              "version": "4.0"
-            }
-          ]
-        },
-        {
-          "id": "GHSA-gw85-4gmf-m7rh",
-          "packages": [
-            {
-              "name": "org.apache.httpcomponents:httpclient",
-              "version": "4.0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "packageUpdates": [
-        {
-          "name": "org.codehaus.plexus:plexus-utils",
-          "versionFrom": "3.0",
-          "versionTo": "3.6.1",
-          "transitive": false
-        }
-      ],
-      "fixed": [
-        {
-          "id": "GHSA-6fmv-xxpf-w3cw",
-          "packages": [
-            {
-              "name": "org.codehaus.plexus:plexus-utils",
-              "version": "3.0"
-            }
-          ]
-        },
-        {
-          "id": "GHSA-8vhq-qq4p-grq3",
-          "packages": [
-            {
-              "name": "org.codehaus.plexus:plexus-utils",
-              "version": "3.0"
-            }
-          ]
-        },
-        {
-          "id": "GHSA-g6ph-x5wf-g337",
-          "packages": [
-            {
-              "name": "org.codehaus.plexus:plexus-utils",
-              "version": "3.0"
-            }
-          ]
-        },
-        {
-          "id": "GHSA-jcwr-x25h-x5fh",
-          "packages": [
-            {
-              "name": "org.codehaus.plexus:plexus-utils",
-              "version": "3.0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "packageUpdates": [
-        {
-          "name": "commons-io:commons-io",
-          "versionFrom": "",
-          "versionTo": "2.14.0",
-          "transitive": true
-        }
-      ],
-      "fixed": [
-        {
-          "id": "GHSA-78wr-2p64-hpwj",
-          "packages": [
-            {
-              "name": "commons-io:commons-io",
-              "version": "2.5"
-            }
-          ]
-        },
-        {
-          "id": "GHSA-gwrp-pvrq-jmwv",
-          "packages": [
-            {
-              "name": "commons-io:commons-io",
-              "version": "2.5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "packageUpdates": [
-        {
-          "name": "org.jsoup:jsoup",
-          "versionFrom": "1.14.1",
-          "versionTo": "1.15.3",
-          "transitive": true
-        }
-      ],
-      "fixed": [
-        {
-          "id": "GHSA-gp7f-rwcx-9369",
-          "packages": [
-            {
-              "name": "org.jsoup:jsoup",
-              "version": "1.14.1"
-            }
-          ]
-        },
-        {
-          "id": "GHSA-m72m-mhq2-9p6c",
-          "packages": [
-            {
-              "name": "org.jsoup:jsoup",
-              "version": "1.14.1"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
 
 ---
 
 [TestCommand/fix_non-interactive_json_override_pom.xml - 2]
 Guided remediation (the fix command) can be risky when run on untrusted projects. It may trigger the package manager to execute scripts or follow external registries specified in the project. Please ensure you trust the source code and artifacts before proceeding.
+failed resolving manifest: error resolving manifest dependencies: rpc error: code = Unavailable desc = service unavailable
 
 ---
 
@@ -9336,20 +9046,15 @@ Guided remediation (the fix command) can be risky when run on untrusted projects
   <version>1</version>
 
   <properties>
-    <httpclient.version>4.5.13</httpclient.version>
+    <httpclient.version>4.0</httpclient.version>
   </properties>
 
     <dependencyManagement>
       <dependencies>
         <dependency>
-          <groupId>commons-io</groupId>
-          <artifactId>commons-io</artifactId>
-          <version>2.14.0</version>
-        </dependency>
-        <dependency>
           <groupId>org.jsoup</groupId>
           <artifactId>jsoup</artifactId>
-          <version>1.15.3</version>
+          <version>1.14.1</version>
         </dependency>
         <dependency>
           <groupId>org.apache.httpcomponents</groupId>
@@ -9368,7 +9073,7 @@ Guided remediation (the fix command) can be risky when run on untrusted projects
     <dependency>
       <groupId>org.codehaus.plexus</groupId>
       <artifactId>plexus-utils</artifactId>
-      <version>3.6.1</version>
+      <version>3.0</version>
     </dependency>
   </dependencies>
 </project>
@@ -9665,14 +9370,14 @@ UNFIXABLE-VULNS: 8
       "resolved": "https://registry.npmjs.org/ajv/-/ajv-6.15.0.tgz",
       "integrity": "sha512-fgFx7Hfoq60ytK2c7DhnF8jIvzYgOMxfugjLOSMHjLIPgenqa7S7oaagATUq99mV6IYvN2tRmC0wnTYX6iPbMw==",
       "dependencies": {
+        "uri-js": "^4.2.2",
         "fast-deep-equal": "^3.1.1",
-        "fast-json-stable-stringify": "^2.0.0",
         "json-schema-traverse": "^0.4.1",
-        "uri-js": "^4.2.2"
+        "fast-json-stable-stringify": "^2.0.0"
       },
       "funding": {
-        "type": "github",
-        "url": "https://github.com/sponsors/epoberezkin"
+        "url": "https://github.com/sponsors/epoberezkin",
+        "type": "github"
       }
     },
     "node_modules/ansi-regex": {
@@ -10601,10 +10306,10 @@ UNFIXABLE-VULNS: 8
       "resolved": "https://registry.npmjs.org/ajv/-/ajv-6.15.0.tgz",
       "integrity": "sha512-fgFx7Hfoq60ytK2c7DhnF8jIvzYgOMxfugjLOSMHjLIPgenqa7S7oaagATUq99mV6IYvN2tRmC0wnTYX6iPbMw==",
       "requires": {
+        "uri-js": "^4.2.2",
         "fast-deep-equal": "^3.1.1",
-        "fast-json-stable-stringify": "^2.0.0",
         "json-schema-traverse": "^0.4.1",
-        "uri-js": "^4.2.2"
+        "fast-json-stable-stringify": "^2.0.0"
       }
     },
     "ansi-regex": {
@@ -11484,14 +11189,14 @@ UNFIXABLE-VULNS: 8
       "resolved": "https://registry.npmjs.org/ajv/-/ajv-6.15.0.tgz",
       "integrity": "sha512-fgFx7Hfoq60ytK2c7DhnF8jIvzYgOMxfugjLOSMHjLIPgenqa7S7oaagATUq99mV6IYvN2tRmC0wnTYX6iPbMw==",
       "dependencies": {
+        "uri-js": "^4.2.2",
         "fast-deep-equal": "^3.1.1",
-        "fast-json-stable-stringify": "^2.0.0",
         "json-schema-traverse": "^0.4.1",
-        "uri-js": "^4.2.2"
+        "fast-json-stable-stringify": "^2.0.0"
       },
       "funding": {
-        "type": "github",
-        "url": "https://github.com/sponsors/epoberezkin"
+        "url": "https://github.com/sponsors/epoberezkin",
+        "type": "github"
       }
     },
     "node_modules/ansi-regex": {
@@ -12420,10 +12125,10 @@ UNFIXABLE-VULNS: 8
       "resolved": "https://registry.npmjs.org/ajv/-/ajv-6.15.0.tgz",
       "integrity": "sha512-fgFx7Hfoq60ytK2c7DhnF8jIvzYgOMxfugjLOSMHjLIPgenqa7S7oaagATUq99mV6IYvN2tRmC0wnTYX6iPbMw==",
       "requires": {
+        "uri-js": "^4.2.2",
         "fast-deep-equal": "^3.1.1",
-        "fast-json-stable-stringify": "^2.0.0",
         "json-schema-traverse": "^0.4.1",
-        "uri-js": "^4.2.2"
+        "fast-json-stable-stringify": "^2.0.0"
       }
     },
     "ansi-regex": {
@@ -13190,16 +12895,11 @@ UNFIXABLE-VULNS: 8
 
 [TestCommand_OfflineDatabase/fix_non_interactive_relax_package_json_with_offline_vulns - 1]
 Guided remediation (the fix command) can be risky when run on untrusted projects. It may trigger the package manager to execute scripts or follow external registries specified in the project. Please ensure you trust the source code and artifacts before proceeding.
-Found 8 vulnerabilities matching the filter
-Can fix 3/8 matching vulnerabilities by changing 1 dependencies
-UPGRADED-PACKAGE: npm-registry-client,6.2.0,^7.5.0
-FIXED-VULN-IDS: GHSA-43f8-2h32-f4cj,GHSA-c2qf-rxjj-qqgw,GHSA-c6rq-rjc2-86v2
-REMAINING-VULNS: 5
-UNFIXABLE-VULNS: 5
 
 ---
 
 [TestCommand_OfflineDatabase/fix_non_interactive_relax_package_json_with_offline_vulns - 2]
+failed resolving manifest: error resolving manifest dependencies: cannot create tree node: cannot get Requirements for {NPM:safe-buffer[Concrete:5.1.2] {}}: rpc error: code = Unavailable desc = service unavailable
 
 ---
 
@@ -13215,7 +12915,7 @@ UNFIXABLE-VULNS: 5
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "npm-registry-client": "^7.5.0"
+    "npm-registry-client": "6.2.0"
   }
 }
 
