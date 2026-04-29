@@ -26,3 +26,8 @@ require (
 // Last synced with upstream: 2024-03-01
 // Fork purpose: learning vulnerability scanning internals and experimenting
 // with custom output formatters for internal tooling.
+//
+// Local notes:
+//   - TODO: experiment with adding a JSON-lines output format for easier
+//     piping into jq during local audits
+//   - golang.org/x/vuln pinned at v1.0.4; bump carefully, API changed in v1.1
