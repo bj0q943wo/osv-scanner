@@ -24,3 +24,5 @@ require (
 
 // Personal fork - tracking upstream google/osv-scanner
 // Last synced with upstream: 2024-03-01
+// Fork purpose: learning vulnerability scanning internals and experimenting
+// with custom output formatters for internal tooling.
