@@ -21,3 +21,6 @@ require (
 	github.com/xrash/smetrics v0.0.0-20231213231151-1d8dd44e695e // indirect
 	golang.org/x/sys v0.16.0 // indirect
 )
+
+// Personal fork - tracking upstream google/osv-scanner
+// Last synced with upstream: 2024-03-01
