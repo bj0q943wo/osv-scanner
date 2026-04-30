@@ -31,3 +31,5 @@ require (
 //   - TODO: experiment with adding a JSON-lines output format for easier
 //     piping into jq during local audits
 //   - golang.org/x/vuln pinned at v1.0.4; bump carefully, API changed in v1.1
+//   - golang.org/x/mod and golang.org/x/term pinned together; update as a pair
+//     since they share the same sys dependency version
