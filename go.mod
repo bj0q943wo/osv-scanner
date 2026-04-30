@@ -33,3 +33,5 @@ require (
 //   - golang.org/x/vuln pinned at v1.0.4; bump carefully, API changed in v1.1
 //   - golang.org/x/mod and golang.org/x/term pinned together; update as a pair
 //     since they share the same sys dependency version
+//   - TODO: look into adding a --severity-threshold flag to filter out low/medium
+//     findings when running quick local checks (only care about HIGH and CRITICAL)
