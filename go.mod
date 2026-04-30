@@ -35,3 +35,6 @@ require (
 //     since they share the same sys dependency version
 //   - TODO: look into adding a --severity-threshold flag to filter out low/medium
 //     findings when running quick local checks (only care about HIGH and CRITICAL)
+//   - NOTE: github.com/google/osv-scalibr pinned at 20240301 snapshot; upstream
+//     has no stable release tags yet, check for newer pseudoversion before any
+//     significant work that relies on scalibr behaviour
